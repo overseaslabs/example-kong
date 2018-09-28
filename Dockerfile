@@ -4,7 +4,7 @@ LABEL vendor="Overseas Labs Limited" \
       vendor.website=http://overseaslsbs.com \
       description="Kong API Gate" \
       project="Example project" \
-      tag="overseaslabs/example-kong"
+      tag="overseaslabs/example-kong:1.0.0"
 
 #install the postgres client for polling
 RUN yum install -y postgresql && yum clean all
